@@ -4,13 +4,20 @@
     "namelsad": "Barnstable Town city",
     "county": "Barnstable",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "mealName": null,
-    "dateVisited": null,
+    "status": "visited",
+    "visitNumber": 224,
+    "restaurantName": "Spanky's Clam Shack",
+    "mealName": "supper",
+    "dateVisited": "July 10, 2024",
     "thumbnailShortcode": null,
-    "links": []
+    "links": [
+      {
+        "category": "social",
+        "platform": "Facebook",
+        "label": "Spanky's Clam Shack",
+        "url": "https://www.facebook.com/jessicaebowen/posts/pfbid031hMk78kwNxose1zWkAD5me3mrnWMPWf3PMeEaW719ETrjDLo1U8EfyrPZ6xdH3F9l"
+      }
+    ]
   },
   "2500107175": {
     "name": "Bourne",
@@ -1016,13 +1023,20 @@
     "namelsad": "North Attleborough Town city",
     "county": "Bristol",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "mealName": null,
-    "dateVisited": null,
+    "status": "visited",
+    "visitNumber": 164,
+    "restaurantName": "Cucina 38",
+    "mealName": "supper",
+    "dateVisited": "November 8, 2023",
     "thumbnailShortcode": null,
-    "links": []
+    "links": [
+      {
+        "category": "social",
+        "platform": "Facebook",
+        "label": "Cucina 38",
+        "url": "https://www.facebook.com/jessicaebowen/posts/pfbid0CYpRwSVc5ApJ26yRmjBfNZKApswAUwHgFSE3mcoKprAMYZS2XZ95PAGhzyRuwuxsl"
+      }
+    ]
   },
   "2500549970": {
     "name": "Norton",
@@ -1315,13 +1329,19 @@
     "namelsad": "Amesbury Town city",
     "county": "Essex",
     "townType": "city",
-    "status": "unvisited",
+    "status": "visited",
     "visitNumber": null,
-    "restaurantName": null,
+    "restaurantName": "Sally & David's house`",
     "mealName": null,
     "dateVisited": null,
     "thumbnailShortcode": null,
-    "links": []
+    "links": [
+      {
+        "category": "note",
+        "label": "Matt & Nina's wedding reception",
+        "url": ""
+      }
+    ]
   },
   "2500901465": {
     "name": "Andover",
@@ -1628,13 +1648,20 @@
     "namelsad": "Methuen Town city",
     "county": "Essex",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "mealName": null,
-    "dateVisited": null,
+    "status": "visited",
+    "visitNumber": 139,
+    "restaurantName": "Ellie's Farmhouse",
+    "mealName": "breakfast",
+    "dateVisited": "August 12, 2023",
     "thumbnailShortcode": null,
-    "links": []
+    "links": [
+      {
+        "category": "social",
+        "platform": "Facebook",
+        "label": "Ellie's Farmhouse",
+        "url": "https://www.facebook.com/jessicaebowen/posts/pfbid0HHsXMmT45c5zETpJdHJLPMMP1ZQUQi5McXsm65gqrpqC5qNhzgD7RjXDhWx892jbl"
+      }
+    ]
   },
   "2500941095": {
     "name": "Middleton",
@@ -2347,9 +2374,9 @@
     "namelsad": "Agawam Town city",
     "county": "Hampden",
     "townType": "city",
-    "status": "unvisited",
+    "status": "visited",
     "visitNumber": null,
-    "restaurantName": null,
+    "restaurantName": "Six Flags",
     "mealName": null,
     "dateVisited": null,
     "thumbnailShortcode": null,
@@ -2613,13 +2640,20 @@
     "namelsad": "Palmer Town city",
     "county": "Hampden",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "mealName": null,
-    "dateVisited": null,
+    "status": "visited",
+    "visitNumber": 119,
+    "restaurantName": "Paramount Pizza",
+    "mealName": "lunch",
+    "dateVisited": "July 4, 2023",
     "thumbnailShortcode": null,
-    "links": []
+    "links": [
+      {
+        "category": "social",
+        "platform": "Facebook",
+        "label": "Paramount Pizza",
+        "url": "https://www.facebook.com/jessicaebowen/posts/pfbid02yDkqH9dzdu2yvQJd7p1HwrUqtCEishp1hNqPx8e8nsiSSNdcQzjdd9LyMpa2SnCHl"
+      }
+    ]
   },
   "2501358650": {
     "name": "Russell",
@@ -2725,9 +2759,9 @@
     "namelsad": "West Springfield Town city",
     "county": "Hampden",
     "townType": "city",
-    "status": "unvisited",
+    "status": "visited",
     "visitNumber": null,
-    "restaurantName": null,
+    "restaurantName": "Big E",
     "mealName": null,
     "dateVisited": null,
     "thumbnailShortcode": null,
@@ -2758,13 +2792,20 @@
     "namelsad": "Amherst Town city",
     "county": "Hampshire",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "mealName": null,
-    "dateVisited": null,
+    "status": "visited",
+    "visitNumber": 173,
+    "restaurantName": "Harp Irish Pub",
+    "mealName": "lunch",
+    "dateVisited": "November 26, 2023",
     "thumbnailShortcode": null,
-    "links": []
+    "links": [
+      {
+        "category": "social",
+        "platform": "Facebook",
+        "label": "Harp Irish Pub",
+        "url": "https://www.facebook.com/jessicaebowen/posts/pfbid0CvfrwcnwttEAysX6raaqB2UdweeHbax3aXdAeiFk5dvp5SiLY8J7fJ7APVPfk6Fgl?notif_id=1701029688159601&notif_t=feedback_reaction_generic&ref=notif"
+      }
+    ]
   },
   "2501504825": {
     "name": "Belchertown",
@@ -2824,13 +2865,20 @@
     "namelsad": "Easthampton Town city",
     "county": "Hampshire",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "mealName": null,
-    "dateVisited": null,
+    "status": "visited",
+    "visitNumber": 259,
+    "restaurantName": "The Silver Spoon",
+    "mealName": "breakfast",
+    "dateVisited": "January 18, 2025",
     "thumbnailShortcode": null,
-    "links": []
+    "links": [
+      {
+        "category": "social",
+        "platform": "Facebook",
+        "label": "The Silver Spoon",
+        "url": "https://www.facebook.com/jessicaebowen/posts/pfbid0KUJXrcqJaLf2BzUZZR8kpdPDzQDE9nbAPZeAD3ooN9TkzMQZpAv6As4VpXjMuEXtl"
+      }
+    ]
   },
   "2501526290": {
     "name": "Goshen",
@@ -3930,13 +3978,20 @@
     "namelsad": "Watertown Town city",
     "county": "Middlesex",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "mealName": null,
-    "dateVisited": null,
+    "status": "visited",
+    "visitNumber": 157,
+    "restaurantName": "Ritcey-East",
+    "mealName": "lunch",
+    "dateVisited": "October 18, 2023",
     "thumbnailShortcode": null,
-    "links": []
+    "links": [
+      {
+        "category": "social",
+        "platform": "Facebook",
+        "label": "Ritcey-East",
+        "url": "https://www.facebook.com/jessicaebowen/posts/pfbid02vbuVaxVYhGShX4M6L2jAV4aHkgSPXzscjb8mXbAekVkWZgF9jmx3NfVv6jay5peUl"
+      }
+    ]
   },
   "2501773790": {
     "name": "Wayland",
@@ -4233,11 +4288,11 @@
     "namelsad": "Franklin Town city",
     "county": "Norfolk",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
+    "status": "visited",
+    "visitNumber": 53,
+    "restaurantName": "3 Restaurant",
     "mealName": null,
-    "dateVisited": null,
+    "dateVisited": "Sep 30, 2020",
     "thumbnailShortcode": null,
     "links": []
   },
@@ -4432,13 +4487,20 @@
     "namelsad": "Randolph Town city",
     "county": "Norfolk",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "mealName": null,
-    "dateVisited": null,
+    "status": "visited",
+    "visitNumber": 228,
+    "restaurantName": "West End Grill",
+    "mealName": "supper",
+    "dateVisited": "July 21, 2024",
     "thumbnailShortcode": null,
-    "links": []
+    "links": [
+      {
+        "category": "social",
+        "platform": "Facebook",
+        "label": "West End Grill",
+        "url": "https://www.facebook.com/jessicaebowen/posts/pfbid02nH8gLDUMa2L38RjmfyB7gL1oUsv14wxucra4ngdpZn4svotuhyxSRXHsqP94QYQSl"
+      }
+    ]
   },
   "2502160785": {
     "name": "Sharon",
@@ -4538,13 +4600,20 @@
     "namelsad": "Weymouth Town city",
     "county": "Norfolk",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "mealName": null,
-    "dateVisited": null,
+    "status": "visited",
+    "visitNumber": 253,
+    "restaurantName": "Mad Hatter",
+    "mealName": "brunch",
+    "dateVisited": "December 8, 2024",
     "thumbnailShortcode": null,
-    "links": []
+    "links": [
+      {
+        "category": "social",
+        "platform": "Facebook",
+        "label": "Mad Hatter",
+        "url": "https://www.facebook.com/jessicaebowen/posts/pfbid0366Ldj3pcdSRRjYvHWTdEprkgSarTHWgVy7eL5NgJSFtQvkGstep2qbSu7wjYF4ygl"
+      }
+    ]
   },
   "2502182315": {
     "name": "Wrentham",
@@ -4584,13 +4653,20 @@
     "namelsad": "Bridgewater Town city",
     "county": "Plymouth",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "mealName": null,
-    "dateVisited": null,
+    "status": "visited",
+    "visitNumber": 205,
+    "restaurantName": "Greyhound Tavern",
+    "mealName": "brunch",
+    "dateVisited": "April 7, 2024",
     "thumbnailShortcode": null,
-    "links": []
+    "links": [
+      {
+        "category": "social",
+        "platform": "Facebook",
+        "label": "Greyhound Tavern",
+        "url": "https://www.facebook.com/jessicaebowen/posts/pfbid02zoeaesoxKCJksUj2M38k43drWAbrQqhdzPfQSsFVq8s2SVHvCkqRRGh5jsEsTv4dl"
+      }
+    ]
   },
   "2502309000": {
     "name": "Brockton",
@@ -5150,13 +5226,20 @@
     "namelsad": "Winthrop Town city",
     "county": "Suffolk",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "mealName": null,
-    "dateVisited": null,
+    "status": "visited",
+    "visitNumber": 291,
+    "restaurantName": "Mexico en Tu Casa",
+    "mealName": "lunch",
+    "dateVisited": "October 25, 2025",
     "thumbnailShortcode": null,
-    "links": []
+    "links": [
+      {
+        "category": "social",
+        "platform": "Facebook",
+        "label": "Mexico en Tu Casa",
+        "url": "https://www.facebook.com/jessicaebowen/posts/pfbid0hJeCDDV9FixwaFuD4eAxdwERFBt1yY9EfMTmiLFGxV1z7Ydfe6n2oiSov4qNiGcpl"
+      }
+    ]
   },
   "2502701885": {
     "name": "Ashburnham",
@@ -5963,13 +6046,20 @@
     "namelsad": "Southbridge Town city",
     "county": "Worcester",
     "townType": "city",
-    "status": "unvisited",
-    "visitNumber": null,
-    "restaurantName": null,
-    "mealName": null,
-    "dateVisited": null,
+    "status": "visited",
+    "visitNumber": 169,
+    "restaurantName": "Elm Centre Cafe",
+    "mealName": "breakfast",
+    "dateVisited": "November 18, 2023",
     "thumbnailShortcode": null,
-    "links": []
+    "links": [
+      {
+        "category": "social",
+        "platform": "Facebook",
+        "label": "Elm Centre Cafe",
+        "url": "https://www.facebook.com/jessicaebowen/posts/pfbid0S2Dq8MJGddFm2QAWPu1tnoDx3iVi3PiWdhQ7TH3faw3DHq3e2k56Y9E4Fghc8Gqxl"
+      }
+    ]
   },
   "2502766105": {
     "name": "Spencer",

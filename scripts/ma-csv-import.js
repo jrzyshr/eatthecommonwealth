@@ -179,6 +179,15 @@ function buildNameIndex(data) {
     const key = (entry.name || '').toLowerCase();
     if (!index[key]) index[key] = [];
     index[key].push(geoid);
+
+    // MA has municipalities whose official Census name ends with " Town" even
+    // though their townType is "city" (e.g. "Barnstable Town").  The CSV
+    // typically uses only the base name ("Barnstable"), so index that too.
+    if (entry.townType === 'city' && key.endsWith(' town')) {
+      const base = key.slice(0, -5);          // strip " town"
+      if (!index[base]) index[base] = [];
+      index[base].push(geoid);
+    }
   }
   return index;
 }
