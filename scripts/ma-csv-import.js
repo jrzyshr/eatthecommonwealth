@@ -245,9 +245,8 @@ for (const row of rows) {
   const entry = data[geoid];
 
   // ── Visit status ──────────────────────────────────────────────────────────
-  // If a restaurant name is present, default to "visited" unless already set.
-  const hasVisitData = (row['restaurant visited'] || row['date'] || row['count'] || row['meal']);
-  if (hasVisitData && (!entry.status || entry.status === 'unvisited')) {
+  // Any matched CSV row means the municipality has been visited.
+  if (!entry.status || entry.status === 'unvisited') {
     entry.status = 'visited';
   }
 
