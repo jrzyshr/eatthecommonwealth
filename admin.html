@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin — Eat The Commonwealth</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body id="admin-body">
+
+  <!-- Admin panel -->
+  <div id="admin-panel">
+
+    <!-- Top bar -->
+    <header id="admin-header">
+      <span id="admin-title"><img src="images/ETCLogo-Transparent.png" alt="ETC" id="admin-header-logo"> ETC Admin</span>
+      <div id="admin-header-right">
+        <span id="admin-visit-counter"><span id="admin-visited-count">0</span> / 351 visited</span>
+        <button id="export-btn">&#8595; Export JSON</button>
+      </div>
+    </header>
+
+    <!-- Main layout: map + sidebar -->
+    <div id="admin-main">
+
+      <!-- Sidebar: municipality list -->
+      <aside id="admin-sidebar">
+        <div id="sidebar-search-wrap">
+          <input type="search" id="sidebar-search" placeholder="Search municipalities…" autocomplete="off">
+        </div>
+        <ul id="municipality-list"></ul>
+      </aside>
+
+      <!-- Map -->
+      <div id="map"></div>
+    </div>
+
+    <!-- ── Edit modal ──────────────────────────────────────────────────────── -->
+    <div id="edit-modal-overlay" hidden>
+      <div id="edit-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div id="modal-header">
+          <h2 id="modal-title">Edit Municipality</h2>
+          <button id="modal-close-btn" aria-label="Close">&times;</button>
+        </div>
+
+        <div id="modal-body">
+          <p id="modal-county" class="modal-meta"></p>
+
+          <!-- Visit status -->
+          <div class="field-group">
+            <label for="status-select">Visit Status</label>
+            <select id="status-select">
+              <option value="unvisited">Not Visited</option>
+              <option value="visited">Visited (Published)</option>
+              <option value="queued">Visited — Coming Soon (no posts yet)</option>
+              <option value="pre-challenge">Pre-Challenge Visit</option>
+            </select>
+          </div>
+
+          <!-- Visit details -->
+          <div id="visit-details-section">
+            <h3 class="section-heading">Visit Details</h3>
+            <div class="field-group">
+              <label for="visit-number-input">Town Visit Number</label>
+              <input type="number" id="visit-number-input" min="1" max="351" placeholder="e.g. 12">
+            </div>
+            <div class="field-group">
+              <label for="restaurant-name-input">Restaurant Name</label>
+              <input type="text" id="restaurant-name-input" placeholder="e.g. Neptune Oyster">
+            </div>
+            <div class="field-group">
+              <label for="meal-name-input">Meal / Dish</label>
+              <input type="text" id="meal-name-input" placeholder="e.g. Lobster Roll">
+            </div>
+            <div class="field-group">
+              <label for="date-visited-input">Date Visited</label>
+              <input type="date" id="date-visited-input">
+            </div>
+          </div>
+
+          <!-- Links section -->
+          <h3 class="section-heading">Links</h3>
+          <ul id="links-list"></ul>
+
+          <!-- Add link form -->
+          <div id="add-link-form">
+            <h4 id="add-link-form-heading">Add a Link</h4>
+            <label for="link-category-input">Category</label>
+            <select id="link-category-input">
+              <option value="restaurant">Restaurant</option>
+              <option value="wikipedia">Wikipedia</option>
+              <option value="social">Social Media</option>
+              <option value="more">Additional Restaurants &amp; Businesses</option>
+              <option value="custom">Custom…</option>
+            </select>
+            <div id="link-category-custom-wrap" hidden>
+              <label for="link-category-custom-input">Custom Category Name</label>
+              <input type="text" id="link-category-custom-input" placeholder="e.g. Press Coverage">
+            </div>
+            <div id="link-platform-wrap" hidden>
+              <label for="link-platform-input">Platform</label>
+              <input type="text" id="link-platform-input" placeholder="e.g. Facebook, Instagram, TikTok">
+            </div>
+            <label for="link-label-input">Description</label>
+            <input type="text" id="link-label-input" placeholder="e.g. Restaurant Name, Bonus Town Trivia">
+            <label for="link-url-input">URL</label>
+            <input type="url" id="link-url-input" placeholder="https://...">
+            <button id="add-link-btn">+ Add Link</button>
+            <button id="cancel-edit-link-btn" class="secondary-btn" hidden>Cancel Edit</button>
+            <p id="add-link-error" class="form-error" hidden></p>
+          </div>
+
+          <!-- Save / cancel -->
+          <div id="modal-actions">
+            <button id="save-btn">Save Changes</button>
+            <button id="cancel-btn" class="secondary-btn">Cancel</button>
+            <p id="save-error" class="form-error" hidden></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- App JS -->
+  <script src="js/admin.js"></script>
+</body>
+</html>

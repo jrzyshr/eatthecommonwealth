@@ -1,0 +1,17 @@
+{
+  "name": "eatthecommonwealth",
+  "description": "Run 'node scripts/seed.js' once to generate data/municipalities.json from the GeoJSON.",
+  "private": true,
+  "scripts": {
+    "seed": "node scripts/seed.js",
+    "import-csv": "node scripts/ma-csv-import.js",
+    "backfill": "node scripts/backfill-shortcodes.js",
+    "fetch-thumbnails": "node scripts/fetch-thumbnails.js"
+  },
+  "dependencies": {
+    "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "shapefile": "^0.6.6"
+  }
+}
